@@ -4,4 +4,5 @@
 # last modified on 03-01-2025
 
 
-ps aux
+tasklist="tasklist.txt"
+Get-proess > $tasklist
